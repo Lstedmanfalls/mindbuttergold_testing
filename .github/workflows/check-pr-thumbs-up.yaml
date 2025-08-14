@@ -23,5 +23,6 @@ jobs:
     uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/reactions-based-pr-label.yaml@rewrite_workflows_for_community_usage
     with: 
       reaction: "+1"
-      reaction-count: 5
+      reaction-count: 1
       label: "community-approved"
+
