@@ -2,8 +2,7 @@ name: semver-release
 on:
   push:
     branches:
-      # - main
-      - test_pr_label_and_reactions_workflows
+      - main
 permissions: read-all
 
 jobs:
