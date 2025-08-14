@@ -2,7 +2,8 @@ name: semver-release
 on:
   push:
     branches:
-      - main
+      # - main
+      - test_pr_label_and_reactions_workflows
 permissions: read-all
 
 jobs:
@@ -13,5 +14,4 @@ jobs:
       issues: write
       pull-requests: write
       id-token: write
-    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/semver-release.yaml@v1.0.0
-    secrets: inherit
+    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/semver-release.yaml@rewrite_workflows_for_community_usage
