@@ -1,0 +1,17 @@
+name: check-community-approval-label
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
+permissions: read-all
+
+jobs:
+  check-community-approval-label:
+    name: check-community-approval-label
+    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-pr-label.yaml@rewrite_workflows_for_community_usage
+    with:
+      label: "community-approved"
