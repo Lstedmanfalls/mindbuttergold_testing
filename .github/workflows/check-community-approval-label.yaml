@@ -16,3 +16,4 @@ jobs:
     uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-pr-label.yaml@rewrite_workflows_for_community_usage
     with:
       label: "community-approved"
+      fail-if-missing: false
