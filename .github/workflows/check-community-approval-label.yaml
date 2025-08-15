@@ -12,6 +12,6 @@ permissions: read-all
 jobs:
   check-community-approval-label:
     name: check-community-approval-label
-    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-pr-label.yaml@rewrite_workflows_for_community_usage
+    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-pr-label.yaml@v2
     with:
       label: "community-approved"
