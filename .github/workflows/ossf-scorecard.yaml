@@ -10,4 +10,4 @@ jobs:
     permissions:
       security-events: write
       id-token: write
-    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/ossf-scorecard.yaml@rewrite_workflows_for_community_usage
+    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/ossf-scorecard.yaml@v2

@@ -11,4 +11,4 @@ permissions: read-all
 jobs:
   validate-pr-title:
     name: validate-pr-title
-    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-conventional-commit-pr-title.yaml@rewrite_workflows_for_community_usage
+    uses: mindbuttergold/github-actions-reusable-workflows/.github/workflows/check-conventional-commit-pr-title.yaml@v2
